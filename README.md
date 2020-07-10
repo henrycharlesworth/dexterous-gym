@@ -31,3 +31,12 @@ These environments involve two fixed shadow hands. The hand which starts with th
 <img src="dexterous_gym/examples/eggcatch.gif" align="right" width="250" border="1"/>
 <b>Variants</b>: "EggCatchUnderarm-v0", "BlockCatchUnderarm-v0", "PenCatchUnderArm-v0", "EggCatchUnderarmHard-v0", "BlockCatchUnderarmHard-v0", "PenCatchUnderarmHard-v0", "EggCatchUnderarmSparse-v0", "BlockCatchUnderarmSparse-v0", "PenCatchUnderArmSparse-v0", "EggCatchUnderarmHardSparse-v0", "BlockCatchUnderarmHardSparse-v0", "PenCatchUnderarmHardSparse-v0" <br/><br/>
 These environments again have two hands, however now they have some additional degrees of freedom that allows them to translate/rotate their centre of masses within some constrained regions. The aims of these tasks is to throw the object from one hand to the other, which can then move it to the desired position/rotation. The "Hard" versions just mean that there is a greater distance between the two hands, such that the objects must be thrown further.
+
+#### HandCatchOverarm Environments
+<b>Variants</b>: "EggCatchOverarm-v0", "BlockCatchOverArm-v0", "PenCatchOverarm-v0", "EggCatchOverarmSparse-v0", "BlockCatchOverarmSparse-v0", "PenCatchOverarmSparse-v0" <br/><br/>
+Similar to the HandCatchUnderArm environments but now the two hands are upright, and so the throwing/catching technique that has to be employed is different. TODO: add "harder" (i.e. further separation between hands) version of these environments, and run some tests with my trajectory optimisation algorithm.
+
+#### TwoObjectCatch Environments
+<img src="dexterous_gym/examples/twoeggcatch_error.gif" align="right" width="250" border="1"/>
+<b>Variants</b>: "TwoEggCatchUnderArm-v0", "TwoBlockCatchUnderArm-v0", "TwoPenCatchUnderArm-v0", "TwoEggCatchUnderArmSparse-v0", "TwoBlockCatchUnderArmSparse-v0", "TwoPenCatchUnderArmSparse-v0" <br/><br/>
+These environments involve coordination between the two hands so as to throw the two objects over to the other hands (as each object's goal can only be reached by the other hand). TODO: introduce "harder" and overarm versions of these environments. Also, note that the examples shown were generated when there was an error with the environment - need to re-run experiment now this is fixed.
