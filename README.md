@@ -6,6 +6,14 @@ Requirements: [Mujoco-py](https://github.com/openai/mujoco-py) and [Gym](https:/
 Once these are installed, run `pip install dexterous-gym`.
 Alternatively, clone the repository and run `pip install -e .` from within the main directory.
 
+## Example usage
+```
+import gym
+import dexterous_gym
+env = gym.make("EggCatchUnderarm-v0")
+```
+See dexterous_gym/__init__.py for full list of registered environments. See dexterous_gym/examples/test_all_envs.py to run all available environments with random actions.
+
 ## Environments
 ### Standard RL environments
 <img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
