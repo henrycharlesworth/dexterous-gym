@@ -21,13 +21,10 @@ A  majority of the environments are goal-based, and have a similar API to the op
 
 #### HandOver Environments
 <img src="dexterous_gym/examples/egghandover.gif" align="right" width="250" border="1"/>
-<b>Variants</b>: "EggHandOver-v0", "BlockHandOver-v0", "PenHandOver-v0", "EggHandOverSparse-v0", "BlockHandOverSparse-v0", "PenHandOverSparse-v0"
-
-
+<b>Variants</b>: "EggHandOver-v0", "BlockHandOver-v0", "PenHandOver-v0", "EggHandOverSparse-v0", "BlockHandOverSparse-v0", "PenHandOverSparse-v0"  
+  
 These environments involve two fixed shadow hands. The hand which starts with the object must find a way to hand it over to the second hand which can then move it to the desired goal.
-
-\
-
+  
 #### HandCatchUnderarm Environments
 
 These environments again have two hands, however now they have some additional degrees of freedom that allows them to translate/rotate their centre of masses within some constrained regions. The aims of these tasks is to throw the object from one hand to the other, which can then move it to the desired position/rotation. The "Hard" versions just mean that there is a greater distance between the two hands, such that the objects must be thrown further.
