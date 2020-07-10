@@ -41,6 +41,7 @@ These environments involve two fixed-position hands. The hand which starts with 
 These environments again have two hands, however now they have some additional degrees of freedom that allows them to translate/rotate their centre of masses within some constrained region. The aims of these tasks is to throw the object from one hand to the other, which can then move it to the desired position/rotation. The "Hard" versions involve a greater distance between the two hands, such that the objects must be thrown further. Again the object can be an egg, a block or a pen.
 
 #### HandCatchOverarm Environments
+<img src="dexterous_gym/examples/eggcatchoverarm_still.png" align="right" width="250" border="1"/>
 <b>Variants</b>: "EggCatchOverarm-v0", "BlockCatchOverArm-v0", "PenCatchOverarm-v0", "EggCatchOverarmSparse-v0", "BlockCatchOverarmSparse-v0", "PenCatchOverarmSparse-v0" <br/><br/>
 Similar to the HandCatchUnderArm environments but now the two hands are upright, and so the throwing/catching technique that has to be employed is different. TODO: add "harder" (i.e. further separation between hands) version of these environments, and run some tests with my trajectory optimisation algorithm.
 
