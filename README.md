@@ -10,8 +10,13 @@ Alternatively, clone the repository and run `pip install -e .` from within the m
 ### Standard RL environments
 We include one "standard" RL environment, i.e. an environment which is not conditioned on a goal. 
 #### Pen Spin
-<img src="dexterous_gym/examples/penspin.gif" align="right" width="250"/>
-Variants: "PenSpin-v0". This is a simple modification of the OpenAI gym HandPen environment where all we do is change the observation space to remove any notion of a goal and then define a custom reward function. This reward function encourages the pen to be spun whilst remaining horizontal.
+<img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
+Variants: "PenSpin-v0". 
+
+This is a simple modification of the OpenAI gym HandPen environment where all we do is change the observation space to remove any notion of a goal and then define a custom reward function. This reward function encourages the pen to be spun whilst remaining horizontal.
+<br/>
+
+
 
 ### Goal-based environments
 A  majority of the environments are goal-based, and have a similar API to the openAI Gym manipulation environments (observations are dictionaries with "observation", "achieved_goal", "desired_goal"). In the case of the two object environments the "achieved_goal" and "desired_goal" entries are also dictionaries with entries "object_1" and "object_2". All environments come with a standard setting (where the reward is defined in terms of the positional and rotational distance between the achieved goal(s) and the desired goal(s) as well as a sparse setting, where the reward is -1.0 until the goal(s) are achieved (where the reward is 0.0).
