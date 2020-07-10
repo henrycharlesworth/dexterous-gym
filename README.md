@@ -43,7 +43,7 @@ These environments again have two hands, however now they have some additional d
 #### HandCatchOverarm Environments
 <img src="dexterous_gym/examples/eggcatchoverarm_still.png" align="right" width="250" border="1"/>
 <b>Variants</b>: "EggCatchOverarm-v0", "BlockCatchOverArm-v0", "PenCatchOverarm-v0", "EggCatchOverarmSparse-v0", "BlockCatchOverarmSparse-v0", "PenCatchOverarmSparse-v0" <br/><br/>
-Similar to the HandCatchUnderArm environments but now the two hands are upright, and so the throwing/catching technique that has to be employed is different. TODO: add "harder" (i.e. further separation between hands) version of these environments, and run some tests with my trajectory optimisation algorithm.
+Similar to the HandCatchUnderArm environments but now the two hands are upright, and so the throwing/catching technique that has to be employed is different. TODO: add "harder" (i.e. further separation between hands) version of these environments, and run some tests with my trajectory optimisation algorithm to get some example trajectories.
 
 #### TwoObjectCatch Environments
 <img src="dexterous_gym/examples/twoeggcatch_error.gif" align="right" width="250" border="1"/>
