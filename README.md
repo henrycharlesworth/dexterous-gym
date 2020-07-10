@@ -28,4 +28,6 @@ These environments involve two fixed shadow hands. The hand which starts with th
 &nbsp;
 
 #### HandCatchUnderarm Environments
+<img src="dexterous_gym/examples/eggcatch.gif" align="right" width="250" border="1"/>
+<b>Variants</b>: "EggCatchUnderarm-v0", "BlockCatchUnderarm-v0", "PenCatchUnderArm-v0", "EggCatchUnderarmHard-v0", "BlockCatchUnderarmHard-v0", "PenCatchUnderarmHard-v0", "EggCatchUnderarmSparse-v0", "BlockCatchUnderarmSparse-v0", "PenCatchUnderArmSparse-v0", "EggCatchUnderarmHardSparse-v0", "BlockCatchUnderarmHardSparse-v0", "PenCatchUnderarmHardSparse-v0" <br/><br/>
 These environments again have two hands, however now they have some additional degrees of freedom that allows them to translate/rotate their centre of masses within some constrained regions. The aims of these tasks is to throw the object from one hand to the other, which can then move it to the desired position/rotation. The "Hard" versions just mean that there is a greater distance between the two hands, such that the objects must be thrown further.
