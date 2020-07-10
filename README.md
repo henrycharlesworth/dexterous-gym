@@ -7,8 +7,8 @@ Once these are installed, run `pip install dexterous-gym`.
 Alternatively, clone the repository and run `pip install -e .` from within the main directory.
 
 ## Environments
-<img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
 ### Standard RL environments
+<img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
 We include one "standard" RL environment (i.e. an environment which is not conditioned on a goal), PenSpin.
 
 <b>Variants</b>: "PenSpin-v0". 
@@ -19,8 +19,8 @@ This is a simple modification of the OpenAI gym HandPen environment where all we
 A  majority of the environments are goal-based, and have a similar API to the openAI Gym manipulation environments (observations are dictionaries with "observation", "achieved_goal", "desired_goal"). In the case of the two object environments the "achieved_goal" and "desired_goal" entries are also dictionaries with entries "object_1" and "object_2". All environments come with a standard setting (where the reward is defined in terms of the positional and rotational distance between the achieved goal(s) and the desired goal(s) as well as a sparse setting, where the reward is -1.0 until the goal(s) are achieved (where the reward is 0.0).
 <br/><br/>
 
-<img src="dexterous_gym/examples/egghandover.gif" align="right" width="250" border="1"/>
 #### HandOver Environments
+<img src="dexterous_gym/examples/egghandover.gif" align="right" width="250" border="1"/>
 These environments involve two fixed shadow hands. The hand which starts with the object must find a way to hand it over to the second hand which can then move it to the desired goal.
 
 <b>Variants</b>: "EggHandOver-v0", "BlockHandOver-v0", "PenHandOver-v0", "EggHandOverSparse-v0", "BlockHandOverSparse-v0", "PenHandOverSparse-v0"
