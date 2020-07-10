@@ -21,9 +21,8 @@ A  majority of the environments are goal-based, and have a similar API to the op
 
 #### HandOver Environments
 <img src="dexterous_gym/examples/egghandover.gif" align="right" width="250" border="1"/>
-<b>Variants</b>: "EggHandOver-v0", "BlockHandOver-v0", "PenHandOver-v0", "EggHandOverSparse-v0", "BlockHandOverSparse-v0", "PenHandOverSparse-v0"  
-  
-These environments involve two fixed shadow hands. The hand which starts with the object must find a way to hand it over to the second hand which can then move it to the desired goal.
+<b>Variants</b>: "EggHandOver-v0", "BlockHandOver-v0", "PenHandOver-v0", "EggHandOverSparse-v0", "BlockHandOverSparse-v0", "PenHandOverSparse-v0" <br/><br/>
+These environments involve two fixed shadow hands. The hand which starts with the object must find a way to hand it over to the second hand which can then move it to the desired goal.  
   
 #### HandCatchUnderarm Environments
 
