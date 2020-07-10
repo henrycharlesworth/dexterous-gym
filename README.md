@@ -8,8 +8,7 @@ Alternatively, clone the repository and run `pip install -e .` from within the m
 
 ## Environments
 ### Standard RL environments
-We include one "standard" RL environment, i.e. an environment which is not conditioned on a goal. 
-#### Pen Spin
+We include one "standard" RL environment (i.e. an environment which is not conditioned on a goal), PenSpin.
 <img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
 <b>Variants</b>: "PenSpin-v0". 
 
