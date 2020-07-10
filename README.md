@@ -11,10 +11,10 @@ Alternatively, clone the repository and run `pip install -e .` from within the m
 We include one "standard" RL environment, i.e. an environment which is not conditioned on a goal. 
 #### Pen Spin
 <img src="dexterous_gym/examples/penspin.gif" align="right" width="250" border="1"/>
-Variants: "PenSpin-v0". 
+<b>Variants</b>: "PenSpin-v0". 
 
 This is a simple modification of the OpenAI gym HandPen environment where all we do is change the observation space to remove any notion of a goal and then define a custom reward function. This reward function encourages the pen to be spun whilst remaining horizontal.
-<br/>
+<br/><br/>
 
 
 
