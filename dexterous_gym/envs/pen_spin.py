@@ -26,10 +26,10 @@ class PenSpin(HandPenEnv):
         bottom_z = self.sim.data.site_xpos[self.bottom_id].ravel()[-1]
         top_z = self.sim.data.site_xpos[self.top_id].ravel()[-1]
         reward_1 = -15 * np.abs(bottom_z - top_z)  # want pen to be in x-y plane
-        if top_z < 0.12:
-            reward_1 -= 10.0
-        if bottom_z < 0.12:
-            reward_1 -= 10.0
+        #if top_z < 0.12:
+        #    reward_1 -= 10.0
+        #if bottom_z < 0.12:
+        #    reward_1 -= 10.0
         qvel = self.sim.data.get_joint_qvel('object:joint')
         reward_2 = self.direction * qvel[3]
         return self.alpha * reward_2 + reward_1
