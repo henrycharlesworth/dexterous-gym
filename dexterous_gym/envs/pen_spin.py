@@ -39,5 +39,5 @@ class PenSpin(HandPenEnv):
         while not did_reset_sim:
             did_reset_sim = self._reset_sim()
         self.goal = np.array([10000,10000,10000,0,0,0,0]) #hide offscreen
-        obs = self._get_obs()
+        obs = self._get_obs()["observation"]
         return obs
