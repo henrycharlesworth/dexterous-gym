@@ -1,5 +1,5 @@
 # Dexterous Gym - Challenging Extensions to OpenAI's Gym Hand Manipulation Environments
-This repository contains a number of challenging environments based on OpenAI's Gym hand manipulation tasks, all of which are challenging for current RL and trajectory optimisation techniques. Used in our paper: https://arxiv.org/abs/2009.05104 (videos showing videos and comparisons: https://dexterous-manipulation.github.io/) 
+This repository contains a number of challenging environments based on OpenAI's Gym hand manipulation tasks, all of which are challenging for current RL and trajectory optimisation techniques. Used in our paper: https://arxiv.org/abs/2009.05104 (videos showing our results and comparisons: https://dexterous-manipulation.github.io/) 
 
 ## Installation
 Requirements: [Mujoco-py](https://github.com/openai/mujoco-py) and [Gym](https://github.com/openai/gym)
