@@ -7,9 +7,13 @@ Once these are installed, run `pip install dexterous-gym`.
 Alternatively, clone the repository and run `pip install -e .` from within the main directory.
 
 May require certain versions of Mujoco-Py and Gym - last tested with:
+
 gym=0.15.3
+
 dexterous-gym=0.1.7
+
 mujoco-py=2.0.2.13
+
 
 ## Example usage
 ```
